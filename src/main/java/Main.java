@@ -78,7 +78,6 @@ public class Main {
         //Return a book from the user
         library.returnBook(bookOne, user);
 
-        //
 
         //Print late fees based on book checkout. Returns zero since book is checked out 'today'
         System.out.println(user.calculateLateFees(bookTwo));
